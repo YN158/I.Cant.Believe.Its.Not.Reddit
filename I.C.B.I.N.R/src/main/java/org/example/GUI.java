@@ -15,6 +15,7 @@ public class GUI
 
         button = new JButton();
         button.setBounds(200,100, 100, 50);
+
         button2 = new JButton();
         button2.setBounds(200,400, 100, 50);
         button2.setVisible(false);
@@ -28,7 +29,6 @@ public class GUI
         frame.setSize(500, 500);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        frame.add(button);
-        frame.add(button2);
+        frame.add(button, button2);
     }
 }
