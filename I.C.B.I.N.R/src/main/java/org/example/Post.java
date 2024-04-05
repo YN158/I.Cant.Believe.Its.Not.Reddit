@@ -5,8 +5,8 @@ public class Post
     int ID;
     String Title;
     String Body;
-    User Author;
-    Sub S;
+    int AuthorID;
+    int SubID;
     int Date;
     int Score;
 }

@@ -6,7 +6,7 @@ public class Sub
 {
     int ID;
     String Title;
-    User Admin;
-    ArrayList<Post> SubPosts= new ArrayList<Post>();
-    ArrayList<User> Members= new ArrayList<User>();
+    int AdminID;
+    ArrayList<int[]> SubPostsID = new ArrayList<int[]>();
+    ArrayList<int[]> MembersID = new ArrayList<int[]>();
 }

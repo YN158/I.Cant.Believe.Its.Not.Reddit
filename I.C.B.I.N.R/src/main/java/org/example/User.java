@@ -8,9 +8,9 @@ public class User
     String Username;
     String PassWord;
     int Karma;
-    ArrayList<Post> UserPosts= new ArrayList<Post>();
-    ArrayList<Sub> UserSubsIn= new ArrayList<Sub>();
-    ArrayList<Sub> UserSubsOwned= new ArrayList<Sub>();
-    ArrayList<Comment> UserComments= new ArrayList<Comment>();
+    ArrayList<int[]> UserPostsID= new ArrayList<int[]>();
+    ArrayList<int[]> UserSubsInID= new ArrayList<int[]>();
+    ArrayList<int[]> UserSubsOwnedID= new ArrayList<int[]>();
+    ArrayList<int[]> UserCommentsID= new ArrayList<int[]>();
 
 }
