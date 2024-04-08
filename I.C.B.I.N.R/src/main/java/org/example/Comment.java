@@ -2,9 +2,9 @@ package org.example;
 
 public class Comment
 {
-    int ID;
-    String Body;
-    int AuthorID;
-    int PostID;
+    public int ID;
+    public String Body;
+    public int AuthorID;
+    public int PostID;
 
 }

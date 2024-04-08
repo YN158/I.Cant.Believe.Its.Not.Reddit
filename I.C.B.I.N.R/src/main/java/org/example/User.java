@@ -4,13 +4,18 @@ import java.util.ArrayList;
 
 public class User
 {
-    int ID;
-    String Username;
-    String PassWord;
-    int Karma;
-    ArrayList<int[]> UserPostsID= new ArrayList<int[]>();
-    ArrayList<int[]> UserSubsInID= new ArrayList<int[]>();
-    ArrayList<int[]> UserSubsOwnedID= new ArrayList<int[]>();
-    ArrayList<int[]> UserCommentsID= new ArrayList<int[]>();
+    public int ID;
+    public String Username;
+    public String PassWord;
+    public int Karma;
+    public ArrayList<int[]> UserPostsID= new ArrayList<int[]>();
+    public ArrayList<int[]> UserSubsInID= new ArrayList<int[]>();
+    public ArrayList<int[]> UserSubsOwnedID= new ArrayList<int[]>();
+    public ArrayList<int[]> UserCommentsID= new ArrayList<int[]>();
+
+    public User()
+    {
+
+    }
 
 }

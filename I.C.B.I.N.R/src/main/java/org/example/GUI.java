@@ -9,7 +9,7 @@ public class GUI
     JButton button;
     JButton button2;
 
-    public GUI(String name)
+    public GUI(String name, CMM cmm)
     {
         frame = new JFrame(name);
 
