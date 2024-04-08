@@ -20,15 +20,15 @@ public class GUI
         button2.setBounds(200,400, 100, 50);
         button2.setVisible(false);
 
-
         button.addActionListener(e -> {button2.setVisible(true); button.setVisible(false);});
         button2.addActionListener(e -> {frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING)); System.out.println("poo");});
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
-        frame.setSize(500, 500);
+        frame.setSize(800, 500);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        frame.add(button, button2);
+        frame.add(button);
+        frame.add(button2);
     }
 }

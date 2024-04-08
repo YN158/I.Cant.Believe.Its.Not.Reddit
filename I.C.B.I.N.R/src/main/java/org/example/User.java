@@ -13,9 +13,4 @@ public class User
     public ArrayList<int[]> UserSubsOwnedID= new ArrayList<int[]>();
     public ArrayList<int[]> UserCommentsID= new ArrayList<int[]>();
 
-    public User()
-    {
-
-    }
-
 }
